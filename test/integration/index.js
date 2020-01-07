@@ -57,6 +57,8 @@ const xPackBlackList = {
   'sql/sql.yml': ['Getting textual representation'],
   // we are setting two certificates in the docker config
   'ssl/10_basic.yml': ['*'],
+  // the test passes, but the regex fails
+  'transform/preview_transforms.yml': ['Test preview with non-existing source index'],
   // docker issue?
   'watcher/execute_watch/60_http_input.yml': ['*'],
   // the checks are correct, but for some reason the test is failing on js side
